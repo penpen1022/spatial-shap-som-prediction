@@ -1,5 +1,9 @@
 ## Project Introduction
 
+# Soil Organic Matter Prediction in Anhui Province
+
+[![Code DOI](https://doi.org/10.5281/zenodo.18148189)
+[![Data DOI](https://doi.org/10.5281/zenodo.18147953)
 This project is used to build machine learning models based on raster environmental factor data and sample observation data for spatial modeling, prediction, and result interpretation of soil organic matter.  
 The core scripts are `model.py` (data reading, feature selection, model training/evaluation, spatial prediction and visualization menu) and `shap_analysis.py` (provides the `SHAPAnalyzer` class, called by `model.py` to complete SHAP and PDP analyses).
 
